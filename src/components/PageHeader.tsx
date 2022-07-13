@@ -1,7 +1,5 @@
-function PageHeader() : JSX.Element {
-    return (
-        <title>Favourite Places</title>
-    )
+function PageHeader(): JSX.Element {
+  return <title>Favourite Places</title>;
 }
 
-export default PageHeader
+export default PageHeader;
