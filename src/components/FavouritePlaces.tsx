@@ -23,6 +23,28 @@ function FavouritePlaces(): JSX.Element {
         mapLocation={"https://goo.gl/maps/V7ARPzxJfL6QxAAm7"}
         explanation={"It's also nice"}
       />
+      <FavouritePlace
+        title={"place three"}
+        placeName={"West Pennard"}
+        country={"England"}
+        image={
+          "https://images.unsplash.com/photo-1568216522269-4eefad048428?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80"
+        }
+        mapLocation={"https://goo.gl/maps/TPdrLybFguwum4PC6"}
+        explanation={"It feels like a holiday whenever I am here."}
+      />
+      <FavouritePlace
+        title={"place four"}
+        placeName={"Alexandra Park, Bath"}
+        country={"England"}
+        image={
+          "https://images.unsplash.com/photo-1596050429687-8197a9bceeb2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=686&q=80"
+        }
+        mapLocation={"https://goo.gl/maps/aQ2VgDjpRSQ8tKtf8"}
+        explanation={"I spent a lot of time here in final year."}
+      />
+
+
     </>
   );
 }
